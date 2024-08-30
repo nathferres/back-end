@@ -62,3 +62,11 @@ class ProductManager {
 }
 
 module.exports = ProductManager;
+
+
+
+// icluir no código Desenvolva um servidor expresso que, em seu arquivo app.js, importe o arquivo ProductManager que temos atualmente.
+// E também O servidor deve ter os seguintes endpoints:
+// Caminho '/products', que deve ler o arquivo products e retorná-los dentro de um objeto. Adicione suporte para receber por parâmetro de query o valor ?limit= que receberá um limite de resultados.
+// Se nenhuma consulta de limite for recebida, todos os produtos serão devolvidos
+// Se for recebido um limite, devolva apenas o número de produtos solicitados
